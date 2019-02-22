@@ -5,6 +5,7 @@ h1 {
 body {
   background-image: url('../images/avanzza-bg-logo.jpeg');
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .mt120 {
@@ -13,7 +14,6 @@ body {
 
 .logo {
   height: 26px;
-  margin-left: 200px;
 }
 
 .description {
@@ -22,4 +22,8 @@ body {
 
 .links a {
   margin-right: 40px;
+}
+
+.navbar-brand {
+  margin-left: 218px;
 }
