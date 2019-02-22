@@ -1,23 +1,19 @@
+h1 {
+  font-size: 2rem;
+}
+
+.mt120 {
+  margin-top: 120px;
+}
+
 .logo {
-  color: white;
-  font-size: 26px;
-  font-weight: 600;
+  height: 30px;
 }
 
-.logo:hover {
-  color: white;
-  text-decoration: none;
+.description {
+  line-height: 32px;
 }
 
-.land-section-text:nth-child(2) {
-  font-size: 21px;
-}
-
-.land-section-text:nth-child(3) {
-  margin-top: 20px;
-  font-size: 18px;
-}
-
-.land-section-text span {
-  font-size: 20px;
+.links a {
+  margin-right: 40px;
 }
