@@ -1,0 +1,31 @@
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    body {
+      background: none;
+    }
+
+    .mt120 {
+      margin-top: 20px;
+    }
+
+    .navbar-brand {
+      margin-left: inherit;
+    }
+
+    .navbar-nav {
+      flex-direction: column !important;
+    }
+
+    .navbar-nav a {
+      margin-top: 4px;
+    }
+
+    .links a {
+      margin-right: 0;
+      display: block;
+      margin-bottom: 4px;
+    }
+}
